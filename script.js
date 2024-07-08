@@ -19,7 +19,7 @@ function renderItems() {
     button.onclick = () => removeItem(idx);
 
     container.appendChild(text);
-    container, appendChild(button);
+    container.appendChild(button);
 
     itemsDiv.appendChild(container);
   }
